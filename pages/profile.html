@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../sass/styles.css"/>
+  <title>Profile</title>
+</head>
+<body>
+  <header class="header">
+    <img class="header__logo" src="../images/logo-proyecto.svg" alt="">
+    <nav>
+      <a class="header__a" href="../pages/home.html">Home <img class="header__arrow" src="../images/arrow-blue.svg" alt=""></a>
+      <a class="header__a" href="../pages/curses.html">Cursos <img class="header__arrow" src="../images/arrow-blue.svg" alt=""></a>
+      <a class="header__a" href="../pages/blog.html">Blog <img class="header__arrow" src="../images/arrow-blue.svg" alt=""></a>
+      <a class="header__a header__a--press" href="../pages/profile.html">Perfil <img class="header__arrow" src="../images/arrow-lightblue.svg" alt=""></a>
+    </nav>
+  </header>
+  <section class="profile__general">
+    <h1 class="profile__h1">Perfil</h1>
+    <div class="profile__div--position">
+      <div class="profile--user">
+        <img src="/images/profile_photo.png" alt="#" class="profile--img">
+        <p>Nicole Wallace</p>
+        <span class="profile__user--span">@201.niwallace</span>
+      </div>
+  
+      <div class="profile__user">
+        <p class="profile__user--p">País: Estados Unidos <span class="profile__user--span1">Profesión: Fotografía</span></p>
+        <p class="profile__user--p">Email: nwallace@gmail.com <span class="profile__user--span2">Fecha nacimiento: 3 jun, 1997</span></p>
+        <p class="profile__user--p color__border">Teléfono: (786)614-9889 <span class="profile__user--span3">Género: Femenino</span></p>
+      </div>
+    </div>
+
+    <div class="profile__div--position">
+      <div class="profile__curses">
+        <div>
+          <p class="profile__curses--p">Título del curso</p>
+          <div class="profile__curses--bar">
+            <div class="profile__curses--bar2"></div>
+          </div>
+        </div>
+        <div>
+          <p class="profile__curses--p">Título del curso</p>
+          <div class="profile__curses--bar">
+            <div class="profile__curses--bar2-1"></div>
+          </div>
+        </div>
+      </div>
+      <p class="profile__curses--p positionsubtitle">Progreso en tus cursos</p>
+    </div>
+
+    <button class="profile__btn"><img src="/images/white-empty-heart.png" alt="#" class="profile__btn--img">Lecturas favoritas</button>
+    <button class="profile__btn"><img src="/images/star.png" alt="#" class="profile__btn--img">Cursos Logrados</button>
+  </section>
+</body>

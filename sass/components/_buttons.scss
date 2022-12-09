@@ -1,0 +1,78 @@
+.btn__section{
+  display: flex;
+  font-size: 24px;
+}
+
+.btn__section--position{
+  display: flex;
+  margin-right: 40px;
+  width: 500px;
+  align-items: center;
+}
+
+.btn__section--p1{
+  margin-right: 30px;
+}
+
+.btn__btnForm{
+  border: 1px solid #000;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: #ffff;
+}
+
+.btn__section--c{
+  color: #777777;
+  font-size: 24px;
+}
+
+.btn--blue{
+  border: 2px solid #0F254E;
+  color: #0F254E;
+}
+
+.btn--darkBlue{
+  background-color: #0F254E;
+  color: #ffff;
+  width: 170px;
+}
+
+.btn--purpleBasic{
+  background-color: #8244AB;
+  color: #ffff;
+}
+
+.btn__section--c{
+  color: #777777;
+  font-size: 24px;
+}
+
+.btn--blue{
+  border: 2px solid #0F254E;
+  color: #0F254E;
+}
+
+.btn--darkBlue{
+  background-color: #0F254E;
+  color: #ffff;
+  width: 170px;
+}
+
+.btn--purpleBasic{
+  background-color: #8244AB;
+  color: #ffff;
+}
+
+.btn--blueBasic{
+  background-color: #3F75D9;
+  color: #ffff;
+  border: none;
+  width: 130px;
+  height: 50px;
+}
+
+.btn--purpleTwo{
+  background-color: #572E72;
+  color: #ffff;
+}

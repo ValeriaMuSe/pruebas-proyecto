@@ -1,0 +1,132 @@
+.profile__general{
+  width: auto;
+  height: 650px;
+  margin: 10px 120px 10px 120px;
+}
+
+.profile__h1{
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.profile__div--position{
+  display: flex;
+  width: 1100px;
+  height: 200px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  margin: 20px 0 30px;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+.profile__user{
+  width: auto;
+  height: auto;
+  margin: 0px 40px 0px;
+  position: relative;
+}
+
+.profile--img{
+  width: 100px;
+  position: relative;
+  left: 10px;
+  top: 15px;
+}
+
+.profile__user--span{
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+}
+
+.profile__user--p{
+  font-size: 20px;
+  font-weight: 500;
+  width: 800px;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.color__border{
+  border: none;
+}
+
+.profile__user--span1{
+  position: relative;
+  left: 220px;
+}
+
+.profile__user--span2{
+  position: relative;
+  left: 139px;
+}
+
+.profile__user--span3{
+  position: relative;
+  left: 177px;
+}
+
+.profile__curses{
+  display: grid;
+  width: 850px;
+}
+
+.profile__curses--p{
+  font-size: 20px;
+}
+
+.profile__curses--bar{
+  background: #BDBDBD;
+  border: 1px solid #BDBDBD;
+  border-radius: 20px;
+  width: 650px;
+  height: 25px;
+  position: relative;
+  bottom: 17px;
+}
+
+.profile__curses--bar2{
+  border: 1px solid #777777;
+  width: 400px;
+  height: 25px;
+  border-radius: 20px;
+  background: #777777;
+}
+
+.profile__curses--bar2-1{
+  width: 200px;
+  border: 1px solid #777777;
+  height: 25px;
+  border-radius: 20px;
+  background: #777777;
+}
+
+.positionsubtitle{
+  position: relative;
+  right: 160px;
+  bottom: 70px;
+  font-weight: 600;
+}
+
+.profile__btn{
+  width: 490px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 15px;
+  background: #8244AB;
+  border: none;
+  font-size: 20px;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile__btn--img{
+  width: 20px;
+  position: relative;
+  right: 15px;
+  top: 2px;
+}
