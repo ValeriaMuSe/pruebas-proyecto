@@ -1,25 +1,24 @@
-.home{
-  background-image: url(/images/home-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+.home__h1 {
+  position: absolute;
+  margin-top: 122px;
+  font-size: 100px;
+  color: white;
+  margin-left: 40px;
+  line-height: 110px;
+  letter-spacing: -4px;
 }
 
-.home__title{
-  width: 500px;
-  color: #fff;
-  font-size: 46px;
+.home__p {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 40px;
+  color: white;
+  font-size: 28px;
 }
 
-.home__tittle-position{
-  padding-top: 120px;
-  padding-left: 120px;
+.home__img {
+  width: 1263px;
+  margin: -8px;
+  margin-bottom: -14px;
 }
 
-.home__description{
- color: #fff;
- margin-top: 50px;
- margin-left: 120px
-}
-
-@import'_header.scss';
