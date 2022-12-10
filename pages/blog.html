@@ -13,35 +13,20 @@
 </head>
 
 <body>
-  <header class="hero">
-    <nav class="nav container" id="nav">
-      <img src="/images/logo-proyecto.svg" alt="#" class="nav__logo">
-      <ul class="nav__links">
-        <li class="nav__item">
-          <a href="/pages/home.html" class="nav__link">Home <img src="/images/arrow-lightblue.svg" alt="#" class="header__arrow"> </a>
-        </li>
-        <li class="nav__item">
-          <a href="/pages/curses.html" class="nav__link">Cursos<img src="/images/arrow-lightblue.svg" alt="#" class="header__arrow"> </a>
-        </li>
-        <li class="nav__item">
-          <a href="/pages/blog.html" class="nav__link">Blog<img src="/images/arrow-lightblue.svg" alt="#" class="header__arrow"> </a>
-        </li>
-        <li class="nav__item">
-          <a href="/pages/profile.html" class="nav__link">Perfil<img src="/images/arrow-lightblue.svg" alt="#" class="header__arrow"> </a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav__link">Registrarse</a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav__link">Iniciar Sesión</a>
-        </li>
-      </ul>
-      <a href="#nav" class="nav__hamburguer">
-        <img src="/images/menu-hamburguer.svg" alt="" class="nav__icon">
-      </a>
-      <a href="#" class="nav__close">
-        <img src="/images/menu-close.svg" alt="" class="nav__icon">
-      </a>
+  <header>
+    <nav>
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+        <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Gallery</a></li>
+  <li><a href="#">Feedback</a></li>
+  </ul>
+  </div>
     </nav>
   </header>
   <main class="general-container">
