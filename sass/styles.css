@@ -651,10 +651,6 @@ details[open]::before {
     opacity: 0;
   }
 }
-body {
-  max-height: 1000px;
-}
-
 header {
   display: flex;
   align-items: center;
