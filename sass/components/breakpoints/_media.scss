@@ -1,0 +1,94 @@
+@media screen and (min-width: 720px) and  (max-width: 1024px){
+  .container__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    color: #777777;
+    width: 355px;
+    padding: 15px;
+  }
+
+  .container__title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #333333;
+    padding: 8px;
+  }
+
+  .card-content {
+    border: 4px solid #494949;
+    border-radius: 25px;
+    margin-bottom: 24px;
+    width: 46%;
+    margin-left: 9px;
+  }
+
+  .container-butt {
+    position: relative;
+  }
+
+  .container-butt__last {
+    height: 38px;
+    border: 3px solid #777777;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #777777;
+    position: absolute;
+    left: 93px;
+  }
+  .navegation {
+    margin-top: 46px;
+    margin-bottom: 56px;
+    margin-left: 12px;
+  }
+  .form__search {
+    width: 344px;
+    height: 38px;
+    border: 3px solid #777777;
+    border-radius: 15px
+  }
+
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+  .container__title {
+    font-weight: 600;
+    font-size: 50px;
+    color: #333333;
+    margin-left: 78px;
+  }
+  .container__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    color: #777777;
+    width: 346px;
+    margin-left: 78px;
+  }
+  .navegation {
+    margin-top: 46px;
+    margin-bottom: 56px;
+    margin-left: 77px;
+  }
+  .card-content {
+    border: 4px solid #494949;
+    border-radius: 25px;
+    margin-bottom: 24px;
+    width: 33%;
+    margin-left: 74px;
+  }
+  .container-butt__last {
+    height: 38px;
+    border: 3px solid #777777;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #777777;
+    position: absolute;
+    left: 163px;
+  }
+}
