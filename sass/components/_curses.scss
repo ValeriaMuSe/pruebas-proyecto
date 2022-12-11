@@ -1,3 +1,134 @@
+.general-container{
+  width: 1242px;
+  margin: 0 auto;
+}
+
+.container{
+text-align: center;
+}
+
+.container__title{
+  font-weight: 600;
+  font-size: 95px;
+  color: #333333;
+}
+
+.container__text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #777777;
+  width: 784px;
+  margin: 0 auto;
+}
+
+.navegation{
+  display: flex;
+  margin-top: 97px;
+  margin-bottom: 126px;
+  justify-content: space-between
+}
+
+.navegation__btn1{
+  border: 3px solid #8244AB;
+  border-radius: 15px;
+  width: 271px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #8244AB;
+  margin-right: 23px;
+
+}
+
+.navegation__btn2{
+  width: 139px;
+  height: 38px;
+  border: 3px solid #8244AB;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #8244AB;
+}
+
+.navegation__form{
+  position: relative;
+}
+
+.navegation__form::before{
+  content: url('/images/lupa.png') ;
+  position: absolute;
+  top: 7px;
+  left: 11px;
+}
+
+.form__search{
+  width: 401px;
+  height: 38px;
+  border: 3px solid #777777;
+  border-radius: 15px;
+}
 
 
 
+.card-rows{
+  width: 1244px;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.card-content{
+  width: 395px;
+  border: 4px solid #494949;
+  border-radius: 25px;
+  margin-right: 38px;
+}
+
+.card-content__img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card-content__title{
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 40px;
+  color: #333333;
+  max-width: 374px;
+  margin-left: 11px;
+}
+
+.card-content__text{
+  font-weight: 400;
+  font-size: 13px;
+  color: #777777;
+  max-width: 335.65px;
+  margin-left: 13px;
+
+}
+
+.card-content__button{
+  height: 25px;
+  border: 2px solid #3F75D9;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3F75D9;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+
+.container-butt{
+  text-align: center;
+}
+
+.container-butt__last{
+  height: 38px;
+  border: 3px solid #777777;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #777777;
+ 
+}
